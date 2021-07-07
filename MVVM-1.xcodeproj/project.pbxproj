@@ -99,14 +99,11 @@
 		FECBDD9E269639FF006F5818 /* MVVM-1 */ = {
 			isa = PBXGroup;
 			children = (
-				FECBDDCD26963A8F006F5818 /* Profile.swift */,
-				FECBDD9F269639FF006F5818 /* AppDelegate.swift */,
-				FECBDDA1269639FF006F5818 /* SceneDelegate.swift */,
-				FECBDDA3269639FF006F5818 /* ViewController.swift */,
-				FECBDDA5269639FF006F5818 /* Main.storyboard */,
-				FECBDDA826963A06006F5818 /* Assets.xcassets */,
-				FECBDDAA26963A06006F5818 /* LaunchScreen.storyboard */,
-				FECBDDAD26963A06006F5818 /* Info.plist */,
+				FECBDDCF26964114006F5818 /* Models */,
+				FECBDDD026964122006F5818 /* Supporting */,
+				FECBDDD226964181006F5818 /* ViewControllers */,
+				FECBDDD126964143006F5818 /* Storyboards */,
+				FECBDDD3269641A0006F5818 /* Resources */,
 			);
 			path = "MVVM-1";
 			sourceTree = "<group>";
@@ -125,6 +122,49 @@
 				FECBDDC026963A07006F5818 /* MVVM_1UITests.swift */,
 			);
 			path = "MVVM-1UITests";
+			sourceTree = "<group>";
+		};
+		FECBDDCF26964114006F5818 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FECBDDCD26963A8F006F5818 /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FECBDDD026964122006F5818 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				FECBDDAD26963A06006F5818 /* Info.plist */,
+				FECBDD9F269639FF006F5818 /* AppDelegate.swift */,
+				FECBDDA1269639FF006F5818 /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		FECBDDD126964143006F5818 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FECBDDA5269639FF006F5818 /* Main.storyboard */,
+				FECBDDAA26963A06006F5818 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FECBDDD226964181006F5818 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FECBDDA3269639FF006F5818 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FECBDDD3269641A0006F5818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FECBDDA826963A06006F5818 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

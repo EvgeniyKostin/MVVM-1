@@ -44,7 +44,7 @@
                     <connections>
                         <outlet property="ageLabel" destination="MOa-4r-WCs" id="E27-rd-JMi"/>
                         <outlet property="nameLabel" destination="L9z-OP-Wrs" id="9a2-0u-Oqz"/>
-                        <outlet property="secondName" destination="0Go-zI-p71" id="oCo-Ex-hq6"/>
+                        <outlet property="secondNameLabel" destination="0Go-zI-p71" id="oCo-Ex-hq6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
