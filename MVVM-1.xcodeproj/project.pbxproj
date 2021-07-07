@@ -15,6 +15,7 @@
 		FECBDDAC26963A06006F5818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FECBDDAA26963A06006F5818 /* LaunchScreen.storyboard */; };
 		FECBDDB726963A07006F5818 /* MVVM_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBDDB626963A07006F5818 /* MVVM_1Tests.swift */; };
 		FECBDDC126963A07006F5818 /* MVVM_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBDDC026963A07006F5818 /* MVVM_1UITests.swift */; };
+		FECBDDCE26963A90006F5818 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECBDDCD26963A8F006F5818 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FECBDDB626963A07006F5818 /* MVVM_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_1Tests.swift; sourceTree = "<group>"; };
 		FECBDDBC26963A07006F5818 /* MVVM-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECBDDC026963A07006F5818 /* MVVM_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_1UITests.swift; sourceTree = "<group>"; };
+		FECBDDCD26963A8F006F5818 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		FECBDD9E269639FF006F5818 /* MVVM-1 */ = {
 			isa = PBXGroup;
 			children = (
+				FECBDDCD26963A8F006F5818 /* Profile.swift */,
 				FECBDD9F269639FF006F5818 /* AppDelegate.swift */,
 				FECBDDA1269639FF006F5818 /* SceneDelegate.swift */,
 				FECBDDA3269639FF006F5818 /* ViewController.swift */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FECBDDA4269639FF006F5818 /* ViewController.swift in Sources */,
+				FECBDDCE26963A90006F5818 /* Profile.swift in Sources */,
 				FECBDDA0269639FF006F5818 /* AppDelegate.swift in Sources */,
 				FECBDDA2269639FF006F5818 /* SceneDelegate.swift in Sources */,
 			);

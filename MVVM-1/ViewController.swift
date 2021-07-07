@@ -8,6 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: - IBOutlets
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var secondName: UILabel!
+    @IBOutlet weak var ageLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
